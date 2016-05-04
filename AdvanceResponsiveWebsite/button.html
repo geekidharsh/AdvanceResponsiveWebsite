@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <title>Home - Bootstrap buttons</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+        		/* here you can have user defined styles here as well */
+        </style>
+
+    </head>
+
+
+<body>
+    <div class="container"> 
+        <h1> Trying out Bootstrap <small>Example buttons.html file</small></h1>
+        <h3> Using Bootstrap classes to make buttons responsive </h3>
+        
+    </div>
+
+<div class="container"> 
+    <div class="row">
+        <!-- trying out image related classes in bootstrap -->
+            <div class="col-lg-6">
+            <p class="lead">Responsive buttons</p>
+            <a class="btn btn-default" href=""> Link </a>
+            <input class="btn btn-default" value="Input type" type="button" name="input">
+            <input class="btn btn-default" value="Submit type" type="submit" name="input">
+            <button class="btn btn-default">Actual Button</button>
+            </div>
+            <div class="col-lg-6">
+            <p class="lead">Contextual buttons</p>    
+            <button class="btn btn-default" onsubmit="#">Actual Button</button>
+            <button class="btn btn-primary" onsubmit="#">Actual Button</button>
+            <button class="btn btn-success" onsubmit="#">Actual Button</button>
+            <button class="btn btn-danger" onsubmit="#">Actual Button</button>
+            <button class="btn btn-info" onsubmit="#">Actual Button</button>
+            <button class="btn btn-link" onsubmit="#">Actual Button</button>
+
+            </div>
+            <br><br>
+            <div class="col-lg-6">
+            <p class="lead">Varying sizes</p>    
+            <button class="btn btn-default" onsubmit="#">Actual Button</button>
+            <button class="btn btn-primary btn-lg" onsubmit="#">Actual Button</button>
+            <button class="btn btn-success btn-sm" onsubmit="#">Actual Button</button>
+            <button class="btn btn-danger btn-xs" onsubmit="#">Actual Button</button>
+            <button class="btn btn-info" onsubmit="#">Actual Button</button>
+            <button class="btn btn-link" onsubmit="#">Actual Button</button>
+            </div>
+    </div>
+
+</div>
+
+
+</body>
+
+
+</html>
+
+
+

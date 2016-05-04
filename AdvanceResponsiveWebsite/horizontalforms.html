@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <title>Home - Bootstrap forms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+        		/* You can have user defined styles here as well */
+        </style>
+
+    </head>
+
+
+<body>
+    <div class="container"> 
+        <h1> Trying out Bootstrap <small>Example horizontalforms.html file</small></h1>
+        <h3> Using Bootstrap classes to make forms responsive </h3>
+        
+    </div>
+
+<div class="container"> 
+    <div class="row">
+        <!-- forms related classes and ways to make the form horizontal in bootstrap -->
+            <div class="col-xs-12">
+            <p class="lead">Horzontal Responsive forms</p>
+            <form action="" method="" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">    
+                        <input class="form-control" placeholder="Enter name here" required type="text" id="name" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address" class="col-sm-2 control-label">Address</label>
+                        <div class="col-sm-10">
+                        <input class="form-control" placeholder="Enter Address" type="text" id="address" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                        <input class="form-control" placeholder="Enter email" type="email" id="email" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                        <input class="form-control" type="password" id="password" />
+                        </div>
+                    </div>
+
+                    <div class="form-group" >
+                        <label for="other" class="col-sm-2 control-label">Other</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="other" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="file-upload" class="col-sm-2 control-label">Attach file</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="file" id="file-upload" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-10 control-label">
+                        <div class="col-sm-10 col-sm-push-2">
+                                <input class="btn btn-primary" type="submit" id="submit" value="Submit Form" />
+                        </div>        
+                    </div>
+
+        </form>
+
+
+
+
+
+            </div>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>

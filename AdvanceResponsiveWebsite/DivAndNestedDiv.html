@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Bootstrap Div and Nested Div</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+        <style type="text/css">
+        		/* here you can have user defined styles */
+        </style>
+    </head>
+
+<body>
+<div class="container">	
+<h1> Trying out Bootstrap <small>Example DivAndNestedDiv file</small></h1>
+</div>
+<br>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-1 bg-warning">
+			1
+		</div>
+		<div class="col-lg-1 bg-error">
+			2
+		</div>
+		<div class="col-lg-1 bg-success">
+			3
+		</div>
+		<div class="col-lg-1 bg-info">
+			4
+		</div>
+		<div class="col-lg-1 bg-danger">
+			5
+		</div>
+		<div class="col-lg-1 bg-warning">
+			6
+		</div>
+		<div class="col-lg-1 bg-error">
+			7
+		</div>
+		<div class="col-lg-1 bg-warning">
+			8
+		</div>
+		<div class="col-lg-1 bg-danger">
+			9
+		</div>
+		<div class="col-lg-1 bg-success">
+			10
+		</div>
+		<div class="col-lg-1 bg-info">
+			11
+		</div>
+		<div class="col-lg-1 bg-warning">
+			12 
+		</div>
+
+				<!--trying nested div container here, each div level is relative to its immediate parent div -->
+		<div class="col-lg-12 col-md-10 col-sm-8 bg-success"> 
+			<p>This is the outer div</p>
+				<div class="col-lg-12 bg-danger">
+					<p> This is the inner div, Level 1</p>
+						<div class="col-lg-12 bg-warning">
+							<p> This is the inner div, Level 2</p>
+								<div class="col-lg-2 bg-success">
+									1
+								</div>
+								<div class="col-lg-2 bg-primary">
+									2
+								</div>
+								<div class="col-lg-2 bg-success">
+									3
+								</div>
+								<div class="col-lg-2 bg-info">
+									4
+								</div>
+								<div class="col-lg-2 bg-danger">
+									5
+								</div>
+								<div class="col-lg-2 bg-primary">
+									6
+								</div>
+						</div>
+				</div>
+		</div>	
+
+	</div>	<!--row 1 class ends here -->
+			
+</div>	<!--cointainer class ends here -->
+
+<br>	
+
+<!-- another cointainer class starts here -->
+<div class="container">  
+	<div class="row">
+		<div class="col-lg-12 bg-danger">
+				<p>Another container starts here</p>		
+		</div>
+		
+		<div class="col-lg-12 col-md-10 bg-success">
+				<label > Your input here</label>
+				<input type="text" placeholder="Button does nothing">
+				<button type="button" class="btn btn-primary" onclick=""> Button </button>
+		</div>
+	
+	</div>
+</div>			
+	
+	</div>
+
+</body>
+</html>

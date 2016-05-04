@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <title>Home - Bootstrap forms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+        		/* here you can have user defined styles here as well */
+        </style>
+
+    </head>
+
+
+<body>
+    <div class="container"> 
+        <h1> Trying out Bootstrap <small>Example forms.html file</small></h1>
+        <h3> Using Bootstrap classes to make forms responsive </h3>
+        
+    </div>
+
+<div class="container"> 
+    <div class="row">
+        <!-- trying out image related classes in bootstrap -->
+            <div class="col-lg-12">
+            <p class="lead">Basic Responsive forms</p>
+            </div>
+        
+        <form action="" method="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" placeholder="Enter name here" required type="text" id="name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input class="form-control" placeholder="Enter Address" type="text" id="address" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" placeholder="Enter email" type="email" id="email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" id="password" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="other">Other</label>
+                        <input class="form-control" type="text" id="other" />
+                    </div>
+                    <div class="form-group">
+                        <label for="file-upload">Attach file</label>
+                        <input class="form-control" type="file" id="file-upload" />
+                    </div>
+
+                    <div class="form-group">
+                                <input class="btn btn-primary" type="submit" id="submit" value="Submit Form" />
+                    </div>
+
+
+
+
+        </form>
+
+    </div>
+</div>
+
+
+

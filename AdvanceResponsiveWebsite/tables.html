@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <title>Home - Bootstrap Tables</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+        		/* here you can have user defined styles here as well */
+        </style>
+
+    </head>
+
+
+<body>
+    <div class="container"> 
+        <h1> Trying out Bootstrap <small>Example tables.html file</small></h1>
+
+    </div> <br>
+
+<div class="container"> 
+    <div class="row">
+        <h3> Using Bootstrap classes for tables </h3>
+      
+        <div class="col-xs-12">
+
+            <!-- trying out table related classes in bootstrap -->
+         <p class="lead">A simple table</p>   
+         <table class="table">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>   
+         <p class="lead">A striped table</p>
+         <table class="table table-striped">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>   
+
+         <p class="lead">A bordered table</p>
+         <table class="table table-bordered">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>
+
+          <p class="lead">A hover table</p>
+         <table class="table table-hover">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>
+
+          <p class="lead">A condensed table</p>
+         <table class="table table-condensed">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>
+
+          <p class="lead">Table with contextual classes</p>
+         <table class="table">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+
+            </tr>
+            <tr class="active">
+                  <td>1</td>
+                  <td class="success">Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+            </tr>
+            <tr class="info">
+                  <td>3</td>
+                  <td>Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+            </tr>
+         </table>
+        </div>
+        
+        <p class="lead">Responsive table. Shrink page to see</p>
+        
+        <div class="table-responsive">
+         <table class="table">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Occupation</th>
+                <th>Level</th>
+                <th>Location</th>
+                <th>Random</th>
+                <th>Anything</th>
+
+            </tr>
+            <tr>
+                  <td>1</td>
+                  <td>Harsh</td>
+                  <td>Student</td>
+                  <td>Master</td>
+                  <td>Boston</td>
+                  <td>random info</td>
+                   <td>anything else</td>
+            </tr>
+            <tr>
+                  <td>2</td>
+                  <td>Alex</td>
+                  <td>Student</td>
+                  <td>Junior</td>
+                  <td>Chicago</td>
+                  <td>random info</td>
+                   <td>anything else</td>
+
+            </tr>
+            <tr>
+                  <td>3</td>
+                  <td class="danger">Raj</td>
+                  <td>Graduate</td>
+                  <td>Master</td>
+                  <td>Springfield</td>
+                  <td>random info</td>
+                  <td>anything else</td>
+            </tr>
+         </table>
+    </div>
+</div>
+
+
+
+</body>
+
+
+<html>
