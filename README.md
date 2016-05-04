@@ -4,5 +4,7 @@ Advance Responsive Website respository is a collection of various responsive fra
 
 This repository is a work in progress. 
 
-#first commit:
+#author: 
+@geekidharsh . Files available for redistribution and download only for educational purposes. About the author
+#Commit sessions:
 Added a bunch of bootstrap frameworks, I used them mainly to take references while development. 
