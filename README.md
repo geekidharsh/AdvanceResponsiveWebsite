@@ -1,10 +1,10 @@
-# AdvanceResponsiveWebsite
+AdvanceResponsiveWebsite Respository 
+=======
+This repository is a collection of various responsive framworks for different html elements using responsive techniques, bootstrap, html, css, js. This repository is a work in progress. Files available for redistribution and download only for educational purposes. Know about the author below
 
-Advance Responsive Website respository is a collection of various responsive framworks for different html elements using responsive techniques, bootstrap, html, css, js. 
+###author: 
+@geekidharsh
 
-This repository is a work in progress. 
-
-#author: 
-@geekidharsh . Files available for redistribution and download only for educational purposes. About the author
-#Commit sessions:
+###Commit sessions:
 Added a bunch of bootstrap frameworks, I used them mainly to take references while development. 
+This section is updated manually by the origin master
