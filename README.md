@@ -1,6 +1,7 @@
 # AdvanceResponsiveWebsite
 
-Collection of various responsive framworks for different html elements using responsive techniques, bootstrap, html, css, js. 
+Advance Responsive Website respository is a collection of various responsive framworks for different html elements using responsive techniques, bootstrap, html, css, js. 
+
 This repository is a work in progress. 
 
 #first commit:
