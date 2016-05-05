@@ -6,5 +6,5 @@ This repository is a collection of various responsive framworks for different ht
 @geekidharsh
 
 ###Commit sessions:
-Added a bunch of bootstrap frameworks, I used them mainly to take references while development. 
+Added a bunch of bootstrap frameworks. These are mainly useful while taking references in development. 
 This section is updated manually by the origin master
