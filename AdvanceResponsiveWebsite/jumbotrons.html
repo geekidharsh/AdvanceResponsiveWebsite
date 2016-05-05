@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home - Bootstrap jumbotrons components</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+        		/* You can have user defined styles here as well */
+        </style>
+
+    </head>
+
+
+<body>
+    <div class="container"> 
+        <h1> Trying Jumbotrons <small>Example jumbotrons.html file</small></h1>
+       
+
+<div class="container">
+
+    <div class="row">
+            <div class="col-xs-12 col-lg-8">
+                
+                <h3> Jumbotron here</h3>
+                <!-- forms related classes and ways to make the jumbotrons in bootstrap -->
+                <div class="jumbotron">
+                    <p>Demonstrating jumbotron class. Lorem ipsum dolor sit amet, audire malorum at his. Id vide recusabo constituto est, numquam deseruisse eos id, ut eos clita insolens quaestio. Nam putent indoctum at, id option propriae duo. Est et fabulas abhorreant. Vis ut dicit salutandi. Est in commune nominati volutpat, ex mea integre legendos percipitur</p>
+                    <a href="https://www.youtube.com/watch?v=U_DSCLqgZCo" class="btn btn-success" > Watch Coke Studio </a>
+                    <button type="submit" class="btn btn-success" onclick="window.location.href='lists.html'">Go to lists 
+                    </button> 
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <h3> Menu</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Active </li>
+                        <li class="list-group-item list-group-item-warning ">Warning</li>
+                        <li class="list-group-item disabled">Disabled</li>
+                        <li class="list-group-item list-group-item-success">
+                            <span class="badge">13</span>
+                            Notification
+                        </li>
+
+                    </ul>
+            </div>
+
+            <div class="col-xs-12 col-lg-12 well">
+                This is well
+                
+            </div>
+ 
+    </div>
+</div>
+
+</body>
+
+</html>
+
