@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta author="Harshvardhan Pandey">
+
+        <title>Home - Bootstrap Button groups</title>
+        
+    
+        <!-- Bootstrap Main CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet">  
+
+        <!-- Include JQuery -->
+        <script src="js/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Bootstrap main javascript -->
+        <script src="js/bootstrap.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('#tooltip1').tooltip('hide');
+                $('#tooltip2').tooltip('hide');
+
+                $('.carousel').carousel({
+                interval: 2000;
+                                })
+
+            });
+        </script>
+
+         <!-- User defined CSS -->
+        <link href="" rel="stylesheet">  
+        <style type="text/css">
+                /* the following rule will stop the nav bar from blocking the top content of the page */
+                body{
+                    padding-top: 50px; 
+                }
+
+                @media(max-width: 750px;){
+
+                        .my-sidebar
+                                {
+                    padding-top: 50px;
+                                }        
+
+
+                }
+
+                /* note: rule doesn't work for responsiveness. needs revision*/
+                
+        </style>
+
+    </head>
+
+
+<body>       
+                 
+ <!--adding navbar components here -->
+<header>            
+    <nav class="navbar navbar-inverse navbar-fixed-top">  <!-- navbar-inverse changes the color to black, navbar-default is for regular white -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Harsh Pandey</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>
+</header>
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-xs-12 col-lg-12 my-sidebar" > 
+            <h1> Single page layout <small>singlepagelayout.html file</small></h1>
+        </div>
+        
+            <!-- classes to create slideshows, jumbotrons in bootstrap -->
+        
+        <section id="my-slider" class="carousel slide col-lg-8" data-ride="carousel"> 
+            
+
+            <!-- indicators of slides. Dot indicators -->
+            <div class="carousel-indicators">
+                    <ol>
+                            <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#my-slider" data-slide-to="1"></li>
+                    </ol>
+
+            </div>
+
+
+            <!--wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                            <img src="images/chitrarouge.jpg" alt="chitrarouge" class="img-responsive"/>
+                            <div class="carousel-caption">
+                                <!-- enter caption here -->
+                            </div>
+                    </div> 
+
+                     <div class="item">
+                            <img src="images/chitrarouge1.png" alt="uis profile" class="img-responsive" />
+                            <div class="carousel-caption">
+                                    <p>Display profile</p>
+                            </div>
+                    </div> 
+
+
+            </div>
+
+        </section>
+
+        <aside class="jumbotron col-lg-4">
+                    <p>Not interested? No problem!.</p>
+                        <a href="https://www.youtube.com/watch?v=U_DSCLqgZCo" class="btn btn-success" > Watch Atif Aslam </a>
+                    
+        </aside>
+        
+        <div class="col-lg-8">
+            <p class="text">
+                Lorem ipsum dolor sit amet, simul mucius et usu. Usu persecuti intellegam et, eu nullam torquatos necessitatibus cum. Erat intellegam mel ne. Eos graece quaeque no, id duo libris sententiae. Sed stet tation habemus ex. Sonet decore delicata ea vix, ne minimum laboramus assueverit mea.
+            </p>
+        </div>
+
+        
+
+    </div> <!-- row ends here -->
+
+    <div class="row">
+            <!-- Create a Modal for Sign up -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+              Sign up now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Your details here</h4>
+                  </div>
+                  <div class="modal-body">
+
+                        <!-- sign up form starts here  -->
+                        <form action="#" method="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" placeholder="Enter name here" type="text" id="name" required/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" placeholder="Enter email" type="email" id="email" required/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" id="password" placeholder="Min length: 8 characters" required/>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input class="form-control" placeholder="Enter your Address" type="text" id="address" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="file-upload"> Upload your picture </label>
+                        <input class="form-control" type="file" id="file-upload" />
+                    </div>
+
+        </form>   <!-- sign up form starts here  -->
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary form-group">Finish</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div>
+                <footer class="col-sm-12"> <p class="text-center"> &copy; Harshvardhan Pandey. </p></footer>
+            </div>
+        
+    </div>
+                 
+
+
+</div> <!--main body container ends here -->
+
+
+</body>
+
+</html>
+
