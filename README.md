@@ -6,5 +6,6 @@ This repository is a collection of various responsive framworks for different ht
 @geekidharsh
 
 ###Commit sessions:
-Added a bunch of bootstrap frameworks. These are mainly useful while taking references in development. 
-This section is updated manually by the origin master
+Now: Adding video background functionalites,making them responsive, added toggle features, embeding dynamic maps and tootips. 
+Past: Added a bunch of bootstrap frameworks. These are mainly useful while taking references in development. 
+This section is updated manually by the origin master (@geekidharsh). Please go to the repository to check the most updated commit. 
