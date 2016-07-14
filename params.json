@@ -1,0 +1,6 @@
+{
+  "name": "ResponsiveTemplatesWorks",
+  "tagline": "A collection of various responsive framworks for different html elements using responsive techniques, bootstrap frameworks, html, css, js and Google APIs",
+  "body": "#ResponsiveTemplatesWorks \r\n=======\r\nFormerly (AdvanceResponsiveWeb repository). This repository is a collection of various responsive framworks for different html elements using responsive techniques, bootstrap, html, css, js. This repository is a work in progress. Files available for redistribution and download only for educational purposes. Know about the author below\r\n\r\n###author:\r\n@[geekidharsh](https://github.com/geekidharsh)\r\n\r\n###Commit sessions:\r\n**Now:**\r\nAdding video background functionalities,making them responsive, added toggle features, embeding dynamic maps and tootips. \r\n**Past:** \r\nAdded a bunch of bootstrap frameworks. These are mainly useful while taking references in development. \r\nThis section is updated manually by the origin master (@geekidharsh). Please go to the repository to check the most updated commit. ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
